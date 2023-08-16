@@ -6,11 +6,7 @@ from imblearn.under_sampling import RandomUnderSampler
 from sklearn.metrics import confusion_matrix, accuracy_score, matthews_corrcoef, roc_auc_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
-from sklearn.svm import SVC
 from imblearn.under_sampling import EditedNearestNeighbours
-
-
-import xgboost as xgb
 
 from HSIC_GHKNN import HSIC_GHKNN
 
